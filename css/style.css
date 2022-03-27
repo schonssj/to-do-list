@@ -1,0 +1,31 @@
+.to-do {
+    list-style: none;
+    padding: 0;
+}
+
+.to-do li {
+    padding: 10px;
+    border-bottom: #CCC 1px solid;
+}
+
+.to-do li input {
+    margin-right: 10px;
+}
+
+.to-do li.complete {
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.to-do button {
+    color: #FFF;
+    background-color: red;
+    float: right;
+    min-width: 30px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+}
